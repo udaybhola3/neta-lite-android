@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/popup.css" type="text/css"/>
+    <link rel="stylesheet" href="css/media.css" type="text/css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.1/css/selectize.min.css" type="text/css"/>       
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" ></script>
+
+    <title>Neta</title>
+  </head>
+  <body>
+        <section>
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#welcome-back" >
+                        welcome-back
+                        </button> 
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#if-not-login" >
+                                if-not-login 
+                                </button>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#register" >
+                                        register
+                                        </button>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#login-vote-change" >
+                                              login Vote change
+                                                </button>
+                    <!-- Welcome Back Modal -->
+                        <div class="modal fade neta-modal" id="welcome-back">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                              
+                                    <!-- Modal Header -->
+                                    <div class="modal-header bb0 pb0 pt30">
+                                      <h5 class="modal-title font-reg mb20">Your Constituency
+                                            <span>Select your constituency</span>
+                                      </h5>
+                                    
+                                    
+                                    </div>
+                              
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                           
+                                        <div class="row">
+                                                <div class="col" > 
+                                                    <div class="form-group">
+                                                        <button type="button" class="btn light-btn " data-dismiss="modal"><i class="material-icons">location_searching</i> Detect my Location</button>
+                                                    </div>
+                                                    <div class="border-outer">
+                                                        <hr>
+                                                        <span >OR</span>
+                                                    </div>
+                                            </div>
+                                            </div>        
+                                        <div class="row selectize">
+                                            <div class="col pb10"> 
+                                                    <div class="field-title">Search by pincode</div>
+                                                    <select class="demo-default select-beast"  placeholder="State">
+                                                            <option value="4">Punjab</option>
+                                                            <option value="1">Assam</option>
+                                                            <option value="3">Gujrat</option>
+                                                            <option value="5">Bihar</option>
+                                                        </select>
+                                                </div>
+                                                <div class="border-outer">
+                                                        <hr>
+                                                        <span >OR</span>
+                                                    </div>
+                                          </div>
+                                          
+                                          <div class="row selectize">
+                                                <div class="col pb20"> 
+                                                        <div class="field-title">Search by pincode</div>
+                                                        <select class="demo-default select-beast"  placeholder="State">
+                                                                <option value="4">Punjab</option>
+                                                                <option value="1">Assam</option>
+                                                                <option value="3">Gujrat</option>
+                                                                <option value="5">Bihar</option>
+                                                            </select>
+                                                    </div>
+                                              </div>
+                                    </div>
+                                    
+                              
+                                  </div>
+                                </div>
+                              </div>
+
+                                 <!-- if-not-login modal -->
+
+      <div class="modal fade neta-modal register" id="if-not-login">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                    <button class="close ph-mod-pos" data-dismiss="modal" type="button">
+                            <i class="material-icons ph-md-font b-c">
+                              close
+                              </i></button>
+               
+          
+                <!-- Modal body -->
+                <div class="modal-body">
+                        <div class="row">
+                                <div class="col mid-outer">
+                      
+                                  <h6>To vote for candidates and submit issues,
+                                     please sign up<br> first.It will take only 30
+                                   seconds </h6>
+                                </div>
+                              </div>
+                              <div class="row"></div>
+                              <div class="row">
+                                    <div class="col">
+                                      <button class="btn green-btn active " data-dismiss="modal" data-target="#register" data-toggle="modal" type="button">Sign up and Verify</button>
+                                    </div>
+                                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- register Modal -->
+          <div class="modal fade neta-modal register" id="register">
+                <div class="modal-dialog ">
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header bb0">
+                        <h2>Neta</h2>
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                               <div class="row">
+                                    <div class="col mid-outer" >
+                                            <h6>STEP 1</h6>
+                                        <h5 > Verify Phone No </h5>
+                                        <h6>We will send an OTP to verify your number </h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col pb20 register-modal" >
+                                            <div class="left-sec">
+                                                    <div class="form-group">
+                                                            <input type="text" placeholder="91" class="form-control" id="title">
+                                                            <label> + </label>
+                                                            <img src="images/flag.png">
+                                                        </div> 
+                                            </div>
+                                            <div class="right-sec">
+                                                <div class="form-group">
+                                                    <input type="text" placeholder="Phone Number" class="form-control" id="title">
+                                                </div>    
+                                            </div>
+                                    </div>
+                            </div> 
+                            <div class="row">
+                                <div class="col">
+                                    <button type="button" class="btn green-btn active" data-dismiss="modal">Next</button>
+                                </div>
+                            </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- login-vote-change -->
+              <div class="modal fade neta-modal if-not-login" id="login-vote-change">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                          <button class="close ph-mod-pos" data-dismiss="modal" type="button">
+                              <i class="material-icons ph-md-font b-c">
+                                close
+                                </i></button>
+                        
+                        <div class="modal-header bb0">
+                         <div class="pol-img-outer br5">
+                            <img src="images/amit-shah.jpg">
+                         
+                          </div>
+                         <div class="party-img-outer">
+                            <img src="images/cong.png">
+                           
+                          </div>
+                        </div>
+                  
+                        
+                        <div class="modal-body">
+                          <h5>You voted in the support of </h5>
+                        <h4 class="modal-title pop-head font-reg mt0 ">Sushil Kumar Rinku</h4>
+                          <div class="dis-text align-center pb20">on Wed, Sep 05 2018</div>
+                          <div class="row">
+                            <div class="col mid-outer pb20 bt0">
+                                <h5 class="pb10">Would you like to change your vote
+                                    <br>support this candidate?</h5>
+                                    <div class="position-r w80-m-auto">
+                                      <div class="cir-img-outer br5">
+                                        <img src="images/poll-img.png">
+                                        
+                                        </div>
+                                       <div class="party-img-outer n-position">
+                                          
+                                       <img src="images/cong.png">
+                                        </div>
+                                    </div>
+                                    <h4 class="modal-title pop-head font-reg mt10 ">Mahinder Pal Bhagat</h4>
+                            </div>
+                          </div>
+                          <div class="row">
+                          <div class="col">
+                              <button class="btn green-btn mb0 mt30" data-dismiss="modal" type="button">YES,I WANT TO CHANGE</button>
+                              <button class="btn green-btn default" data-dismiss="modal" type="button">No</button>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                              </section>
+
+                              <script>
+                                    $(document).ready(function() {  
+                                        $('.select-beast').selectize();
+                                            });
+                                  </script>
+                                   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                                   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                                   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+                                   <script type="text/javascript" src="js/selectize.js" ></script>
+      </body>
+      </html>
